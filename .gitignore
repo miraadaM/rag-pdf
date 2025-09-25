@@ -1,0 +1,22 @@
+# Ignore Python cache & virtualenv
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+env/
+
+# Ignore FAISS index & metadata
+*.index
+*.json
+
+# Ignore documents (PDF, Word, etc.)
+*.pdf
+*.docx
+*.doc
+
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter notebook checkpoints (if you ever use notebooks)
+.ipynb_checkpoints/
