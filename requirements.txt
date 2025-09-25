@@ -1,0 +1,5 @@
+pymupdf
+numpy
+faiss-cpu
+transformers
+langchain-community
