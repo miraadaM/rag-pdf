@@ -1,4 +1,4 @@
-🚀 RAG PDF + Ollama Pipeline
+# 🚀 RAG PDF + Ollama Pipeline
 
 This project implements a **lightweight Retrieval-Augmented Generation (RAG) pipeline** that lets you query PDFs using **FAISS vector search** and **Ollama LLMs** (e.g., `phi3`).  
 
@@ -14,19 +14,24 @@ It’s perfect for creating your own **local AI knowledge base** from research p
 - 🤖 **Context-Aware Q&A** powered by local Ollama models (tested with `phi3`)
 - 🗂️ **Inspect FAISS Database** (metadata + vectors)
 
-  ## ⚡ Quickstart
+---
+## ⚡ Quickstart
 
 ### 1. Clone Repo
 ```bash
 git clone https://github.com/YOUR_USERNAME/rag-pdf-ollama.git
 cd rag-pdf-ollama
-Install dependencies: pip install -r requirements.txt
-Run the pipeline and plase your pdf to repo: python chunking.py
+2. Install Dependencies
+pip install -r requirements.txt
+3. Run the Pipeline
+Place your PDF in the repo (e.g., report.pdf), then run:
+python chucnking.py
 The program will:
 Extract text from the PDF
 Split into chunks
 Build FAISS index
 Allow interactive Q&A via terminal
+
 🔧 Configuration
 marker="$$$" → split by custom markers inside PDF text
 max_tokens=500 → max token length per chunk
